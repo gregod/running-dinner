@@ -1,0 +1,15 @@
+[project]
+name = "running-dinner-route-opt"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.7,<3.11"
+dependencies = [
+    "tqdm==4.65.0",
+    "PuLP==2.7.0",
+    "pyhafas==0.3.1", # hafas only
+    "percache==0.4.4",
+    "ratelimiter==1.2.0.post0",
+    "requests==2.31.0",
+    "geocoder==1.38.1"
+]
